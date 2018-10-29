@@ -1,0 +1,22 @@
+{
+    "name": "giuga/laravel-ordered-routes",
+    "description": "Set order for routes defined in web.php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabriel Iuga",
+            "email": "gabriel.iuga90@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sk\\": "src/"
+        }
+    }
+}
