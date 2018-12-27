@@ -1,6 +1,6 @@
 <?php
 
-namespace Sk\Routing;
+namespace Giuga\Routing;
 
 use Illuminate\Routing\RouteCollection;
 
@@ -13,7 +13,7 @@ class OrderRouteCollection extends RouteCollection
      * @param  array $routes
      * @param  \Illuminate\Http\Request $request
      * @param  bool $includingMethod
-     * @return \Sk\Routing\OrderRoute|null
+     * @return \Giuga\Routing\OrderRoute|null
      */
     protected function matchAgainstRoutes(array $routes, $request, $includingMethod = true)
     {

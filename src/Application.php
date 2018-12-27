@@ -1,10 +1,10 @@
 <?php
 
-namespace Sk;
+namespace Giuga;
 
 use Illuminate\Events\EventServiceProvider;
 use Illuminate\Log\LogServiceProvider;
-use Sk\Routing\OrderRoutingServiceProvider;
+use Giuga\Routing\OrderRoutingServiceProvider;
 
 class Application extends \Illuminate\Foundation\Application
 {

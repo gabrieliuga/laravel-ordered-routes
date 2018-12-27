@@ -1,6 +1,6 @@
 <?php
 
-namespace Sk\Routing;
+namespace Giuga\Routing;
 
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Events\Dispatcher;
@@ -21,7 +21,7 @@ class OrderRouter extends Router
      * @param  array|string $methods
      * @param  string $uri
      * @param  mixed $action
-     * @return \Sk\Routing\OrderRoute
+     * @return \Giuga\Routing\OrderRoute
      */
     protected function newRoute($methods, $uri, $action)
     {

@@ -18,7 +18,7 @@ $app = new \Illuminate\Foundation\Application(
 
 Replace with
 ```php
-$app = new \Sk\Application(
+$app = new \Giuga\Application(
     realpath(__DIR__.'/../')
 );
 ```
@@ -37,7 +37,7 @@ Replace with
 ```php
 'aliases' => [
 ...
-'Route' => Sk\Routing\Facades\OrderRoute::class,
+'Route' => Giuga\Routing\Facades\OrderRoute::class,
 ...
 ```
 

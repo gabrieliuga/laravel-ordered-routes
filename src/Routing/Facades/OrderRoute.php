@@ -1,12 +1,12 @@
 <?php
 
-namespace Sk\Routing\Facades;
+namespace Giuga\Routing\Facades;
 
 
 use Illuminate\Support\Facades\Route;
 
 /**
- * @method static \Sk\Routing\OrderRoute order(int $order)
+ * @method static \Giuga\Routing\OrderRoute order(int $order)
  *
  * @see \Illuminate\Routing\Router
  */

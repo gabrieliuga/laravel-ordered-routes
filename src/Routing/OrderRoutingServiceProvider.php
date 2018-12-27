@@ -1,6 +1,6 @@
 <?php
 
-namespace Sk\Routing;
+namespace Giuga\Routing;
 
 use Illuminate\Routing\RoutingServiceProvider;
 
